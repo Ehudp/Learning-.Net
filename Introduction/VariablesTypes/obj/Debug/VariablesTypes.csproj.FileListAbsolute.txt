@@ -1,0 +1,15 @@
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\bin\Debug\VariablesTypes.exe.config
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\bin\Debug\VariablesTypes.exe
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\bin\Debug\VariablesTypes.pdb
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\VariablesTypes.csprojResolveAssemblyReference.cache
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\MainWindow.baml
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\MainWindow.g.cs
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\App.g.cs
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\VariablesTypes_MarkupCompile.cache
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\VariablesTypes.g.resources
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\VariablesTypes.Properties.Resources.resources
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\VariablesTypes.csproj.GenerateResource.Cache
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\VariablesTypes.exe
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\VariablesTypes.pdb
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\IntegerPanel.baml
+C:\Users\ehudp\Documents\GitHub\Learning-.Net\Introduction\VariablesTypes\obj\Debug\IntegerPanel.g.cs
