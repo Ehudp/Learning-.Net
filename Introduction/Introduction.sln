@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{0F7AC07C-3CCA-4D25-BB3E-22DCE8A97676}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesTypes", "VariablesTypes\VariablesTypes.csproj", "{E4ECABD8-46B4-4FE0-9E08-A87A60D426D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{5EFCEC61-514F-4D81-9CE6-AD5012FE5EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{4E7EEE50-9815-4721-A998-73C9591AAD6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame", "CardGame\CardGame.csproj", "{E1F4305B-29CE-44F0-851A-043FD8B15C50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +21,16 @@ Global
 		{E4ECABD8-46B4-4FE0-9E08-A87A60D426D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4ECABD8-46B4-4FE0-9E08-A87A60D426D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4ECABD8-46B4-4FE0-9E08-A87A60D426D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E7EEE50-9815-4721-A998-73C9591AAD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E7EEE50-9815-4721-A998-73C9591AAD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E7EEE50-9815-4721-A998-73C9591AAD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E7EEE50-9815-4721-A998-73C9591AAD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F4305B-29CE-44F0-851A-043FD8B15C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F4305B-29CE-44F0-851A-043FD8B15C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F4305B-29CE-44F0-851A-043FD8B15C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F4305B-29CE-44F0-851A-043FD8B15C50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E4ECABD8-46B4-4FE0-9E08-A87A60D426D3} = {0F7AC07C-3CCA-4D25-BB3E-22DCE8A97676}
-		{4E7EEE50-9815-4721-A998-73C9591AAD6B} = {5EFCEC61-514F-4D81-9CE6-AD5012FE5EFE}
+		{E1F4305B-29CE-44F0-851A-043FD8B15C50} = {5EFCEC61-514F-4D81-9CE6-AD5012FE5EFE}
 	EndGlobalSection
 EndGlobal
