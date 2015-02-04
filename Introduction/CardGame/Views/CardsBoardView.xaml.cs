@@ -13,18 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CardGame
+namespace CardGame.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CardsBoardView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CardsBoardView : UserControl
     {
-        public MainWindow()
+        public CardsBoardView()
         {
             InitializeComponent();
         }
-
-       
     }
 }
