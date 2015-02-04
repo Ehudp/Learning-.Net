@@ -18,7 +18,9 @@ namespace CardGame.ViewModels
 
         public CardsViewModel()
         {
-            CardsCollection = new ObservableCollection<CardData>();
+            Rows = 3;
+            InitCards();
+           
             StartCommand = new RelayCommand<object>(OnStartCommand);
         }
 
@@ -63,7 +65,7 @@ namespace CardGame.ViewModels
             set
             {
                 _cardsCollection = value;
-                RaisePropertyChanged(() => Rows);
+                RaisePropertyChanged(() => CardsCollection);
             }
         }
 
@@ -71,14 +73,14 @@ namespace CardGame.ViewModels
 
         private void InitCards()
         {
-            ObservableCollection<CardData> cards = new ObservableCollection<CardData>();
-
-            for (int i = 0; i < Rows; i++)
+            List<CardData> cards = new List<CardData>();
+            
+            for (int i = 0; i < Rows*Rows; i++)
             {
-                var tempCard = new CardData { Text = i.ToString() };
+                var tempCard = new CardData { Text = (1+i).ToString() };
                 cards.Add(tempCard);
             }
-            CardsCollection = cards;
+            CardsCollection = new ObservableCollection<CardData>(cards);
         }
 
     }

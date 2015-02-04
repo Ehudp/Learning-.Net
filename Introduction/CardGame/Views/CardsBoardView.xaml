@@ -5,11 +5,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:viewModels="clr-namespace:CardGame.ViewModels"
              xmlns:model="clr-namespace:CardGame.Model"
+             xmlns:converters="clr-namespace:CardGame.Converters"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources>
+        <converters:BooleanToNonVisibilityConverter x:Key="BooleanToNonVisibilityConverter"/>
         <DataTemplate x:Key="CardTemplate" DataType="model:CardData">
-            <Button Background="Blue" Content="{Binding Text}"/>
+            <Button Background="CadetBlue" 
+                    Content="{Binding Text}"
+                    Visibility="{Binding IsEmpy,Converter={StaticResource BooleanToNonVisibilityConverter}}"
+                    Command="{Binding CardClickCommand}" 
+                    CommandParameter="{Binding}"/>
         </DataTemplate>
     </UserControl.Resources>
     <UserControl.DataContext>
@@ -26,11 +32,11 @@
             <TextBox  x:Name="TxtNum" MinWidth="120" Margin="10,0"/>
         </StackPanel>
         <ItemsControl Grid.Row="1" ItemsSource="{Binding CardsCollection}" ItemTemplate="{StaticResource CardTemplate}">
-            <!--<ItemsControl.ItemsPanel>
+            <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Rows="{Binding Rows}" Columns="{Binding Rows}"/>
                 </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>-->
+            </ItemsControl.ItemsPanel>
         </ItemsControl>
     </Grid>
 </UserControl>
