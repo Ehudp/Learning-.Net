@@ -72,6 +72,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Converters\BooleanToNonVisibilityConverter.cs" />
+    <Compile Include="Utilities\CardsHelper.cs" />
     <Compile Include="ViewModels\CardsViewModel.cs" />
     <Compile Include="Views\CardsBoardView.xaml.cs">
       <DependentUpon>CardsBoardView.xaml</DependentUpon>
